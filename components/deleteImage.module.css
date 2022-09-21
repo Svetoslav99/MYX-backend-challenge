@@ -1,0 +1,16 @@
+.button {
+    height          : 40px;
+    width           : 80px;
+    background-color: rgb(255, 61, 61);
+    border          : 1px solid gray;
+    border-radius   : 8px;
+    cursor          : pointer;
+}
+
+.input {
+    width        : 10vw;
+    min-width: 120px;
+    height       : 32px;
+    border       : 1px solid gray;
+    border-radius: 8px;
+}

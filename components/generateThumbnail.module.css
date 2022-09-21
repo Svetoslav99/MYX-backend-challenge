@@ -1,0 +1,29 @@
+.container {
+    display        : flex;
+    flex-flow      : row;
+    justify-content: center;
+    align-items    : center;
+    column-gap     : 4vw;
+}
+
+.button {
+    height          : 34px;
+    width           : 80px;
+    background-color: rgb(250, 140, 37);
+    border          : 1px solid gray;
+    border-radius   : 8px;
+    cursor          : pointer;
+}
+
+.input {
+    width        : 10vw;
+    min-width    : 120px;
+    height       : 32px;
+    border       : 1px solid gray;
+    border-radius: 8px;
+}
+
+.download {
+    vertical-align: middle;
+    margin-left   : 2px;
+}

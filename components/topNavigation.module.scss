@@ -1,0 +1,76 @@
+.container {
+    display      : flex;
+    flex-flow    : column;
+    border-bottom: 1px solid #dddddd;
+
+    &--primary {
+        display        : flex;
+        flex-flow      : row;
+        justify-content: center;
+        column-gap     : 15vw;
+        width          : 100%;
+        height         : 11vh;
+
+    }
+
+    &--secondary {
+        display        : flex;
+        flex-flow      : row;
+        justify-content: center;
+        column-gap     : 15vw;
+        width          : 100%;
+        height         : 30vh;
+    }
+
+    &--tertiary {
+        display        : flex;
+        flex-flow      : row;
+        justify-content: center;
+        align-items    : center;
+        column-gap     : 15vw;
+        width          : 100%;
+        height         : 20vh;
+    }
+}
+
+@media screen and (max-width:940px) {
+
+    .container--primary {
+        flex-flow      : column;
+        height         : 25vh;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .container--secondary {
+        height: 55vh;
+    }
+}
+
+.container--primary__feature {
+    display    : flex;
+    flex-flow  : row;
+    align-items: center;
+    column-gap : 8px;
+}
+
+.container--secondary__feature {
+    display    : flex;
+    flex-flow  : row;
+    align-items: center;
+    column-gap : 5vw;
+}
+
+@media screen and (max-width:1200px) {
+    .container--secondary__feature {
+        display    : flex;
+        flex-flow  : column;
+        align-items: center;
+        column-gap : 8px;
+        row-gap    : 8px;
+    }
+
+    .container--secondary {
+        height: 60vh;
+    }
+}

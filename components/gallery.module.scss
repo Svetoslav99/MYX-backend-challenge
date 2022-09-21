@@ -1,0 +1,24 @@
+.container {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    column-gap     : 40px;
+    padding        : 20px;
+    text-align     : center;
+}
+
+.message {
+    text-align: center;
+
+    &--general {
+        color: rgb(36, 36, 36);
+    }
+
+    &--success {
+        color: rgb(15, 160, 15);
+    }
+
+    &--failure {
+        color: rgb(173, 30, 30);
+    }
+}

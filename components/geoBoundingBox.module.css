@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+}
+
+.input-container,
+.geo-inputs-container {
+    display        : flex;
+    flex-flow      : column;
+    justify-content: center;
+    align-items    : center;
+    gap            : 8px;
+}
+
+.container__items {
+    display   : flex;
+    flex-flow : row;
+    column-gap: 16px;
+}
+
+.button {
+    width           : 30%;
+    min-width       : 120px;
+    height          : 40px;
+    background-color: rgb(209, 208, 208);
+    border          : 1px solid gray;
+    border-radius   : 8px;
+    cursor          : pointer;
+}
+
+.input {
+    width        : 10vw;
+    min-width    : 80px;
+    height       : 32px;
+    border       : 1px solid gray;
+    border-radius: 8px;
+}
